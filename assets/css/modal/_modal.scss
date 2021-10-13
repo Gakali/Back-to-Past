@@ -1,0 +1,95 @@
+.pop{
+    
+    position: fixed;
+    top: 28rem;
+    left: 50%;
+    z-index:3;
+   
+}
+
+.modal{
+        display: inline-block;
+        position: relative;
+        right: 50%;
+        width: 28rem;
+        border-radius: 17px;
+        background: #d5d7e0;
+        box-shadow: inset 0px 1px 5px 2px #807a79, 0px 1px 5px 4px #6f6363;
+        
+
+}
+.alert{
+       display: inline-block;
+        margin: auto;
+        padding: 3rem 2rem 3rem 2rem;
+}
+.cross::before{
+            
+    content: 'valider️️';
+    padding: 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 86%;
+    border-radius: 50px;
+    background: linear-gradient(41deg, rgb(37,117,33), rgba(8,220,43 ,52%));
+    box-shadow: -3px 1px 17px #030803, 0px 0px 0px 2px #39bd36;
+
+}
+.crossAbord::after{
+            
+    content: 'annuler';
+    padding: 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 86%;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #851515, #c310105c);
+    box-shadow: -1px 0px 0px 2px #8b2f28, -1px 0px 8px 4px #543e3d;
+
+}
+.crossSuccess::before{
+    
+        content: '✔️️️';
+        color: #eae2e2;
+        border-radius: 86%;
+        border-radius: 50px;
+        background: #69c382;
+        box-shadow: 1px 8px 17px #7b6c6b, 0px 0px 5px 3px #b5b1a7;
+}
+.crossFail::before{
+    
+        content: '✖️️️️';
+        color: #eae2e2;
+        padding: 1rem;
+        border-radius: 50px;
+        background: linear-gradient(45deg, #ce5950, #da817a);
+        box-shadow: inset -1px 0px 3px 3px #cf564d, 1px 1px 8px 2px #83342e;
+}
+.accreditation{
+        width: 20%;
+        display: inline-block;
+}
+/*test veil*/
+.modalBox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin: 0rem 1rem 3rem 1rem;
+}
+.lock{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: -1px;
+    right: 0;
+    top: 0rem;
+    background-color: #100f0f9c;
+    position: absolute;
+    z-index: 2;
+}
+
+.titre{
+        font-size:5rem;
+        color:white;
+        margin:auto;
+}

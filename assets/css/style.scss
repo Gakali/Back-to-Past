@@ -1,0 +1,117 @@
+@import "global/global";
+@import "variables/variables";
+@import "keyframes/keyframes";
+@import "modal/modal";
+@import "toggleNav/burger";
+@import "carrouss/carrouss";
+@import "views/header";
+@import "feedBack/feedback";
+@import "views/home-View";
+@import "views/history";
+@import "views/articles";
+@import "views/adminDash";
+@import "views/manageSelf";
+@import "levelDiv/level";
+@import "form/form";
+@import "tchat/tchat";
+@import "views/login";
+@import "views/footer";
+@import "mediaquery/mediaQuery";
+
+
+
+/*
+@-webkit-keyframes buttonHover {
+    0% { 
+       box-shadow: inset 155px 1px 0px #eae2e5, 2px 5px 0px 0px #237480, 1px 10px 5px;
+        }
+    
+  100% { 
+        box-shadow: inset 1px 1px 0px #eae2e5, 2px 5px 0px 0px #237480, 1px 10px 5px;
+      } 
+}*/
+ /********************************************************************************************
+            
+             page home
+ 
+ 
+ ********************/
+ 
+ 
+/* ************ EN COURS DE TEST *************/
+
+.noActiveCar{
+    width: 6rem;
+    opacity: 0.5;
+}
+.activeCar{
+    animation-name: caroussel;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.danger{
+    margin:1rem;
+    padding:1rem;
+    border:2px solid black;
+    font-family:$fonts;
+    color:red;
+}
+.hidden{
+    display:none;
+}
+.visible{
+    display:block;
+}
+.stop{
+    max-width: 34%;
+    margin: auto;
+}
+
+.flex
+{
+    @include flex;
+    justify-content: center;
+}
+.column{
+    flex-direction:column
+}
+
+.wrapper
+{
+    max-width: 95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ 
+.viewDash{
+    display: table;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:auto;
+    thead{
+        background:rgb(19, 15, 64);
+        color:rgb(19, 15, 64);
+        th{
+            padding:1rem;
+           
+        }
+    }
+   tr{
+       background-color:#5967ca;;
+    } 
+   
+    /*tr:hover{
+        transform:scale(1.1);
+        //background-color:black;
+    }*/
+    td{
+        padding:1rem;
+        
+    }
+    .adminLink{
+        border:1px solid black;
+    }
+}
+

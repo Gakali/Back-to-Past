@@ -1,0 +1,329 @@
+/********************* MOBILE******************/
+#ball{
+    display:none;
+}
+#smallBall{
+    display:none;
+}
+
+
+/********************* TABLET******************/
+@media (min-width: 768px){
+
+#ball{
+    display:block;
+}
+#smallBall{
+    display:block;
+}
+    
+    
+
+  .mainlogo{
+        .backto{
+      top: 7rem;
+      }
+        .arrow{
+      top: -6rem;
+      }  
+  }
+  .view{
+      min-width: 227rem;
+  }
+   .container{
+     position:relative;
+     
+     .caroussel{
+        max-width: 109rem;
+        overflow: auto;
+        margin-right: auto;
+        margin-left: auto;
+        position:relative;
+     }
+     .view{
+    
+    	display: flex;
+        flex-direction: row;
+        min-width: 213rem;
+    
+     }
+     .caroussel-screen{
+         
+         margin:1rem;
+         align-self: center;
+         max-width: 86rem;
+     }
+     .button{
+         display:block;
+         position:absolute;
+         width: 100%;
+        display: flex;
+        justify-content: space-between;
+        top: 27rem;
+        
+     }
+     .button::active{
+         
+     }
+     #next{
+         position: relative;
+        
+        align-self:center;
+         
+     }
+     #prev{
+         position: relative;
+    
+        align-self:center;
+     }
+ }
+ /*********** HOME FEEDBACK  **************/
+.aside{
+
+    margin-left: auto;
+    flex-direction: row;
+}
+.aside > div{
+    flex:2;
+}
+/******************************************/
+
+
+/*********** DASHBOARD USER **************/
+
+.img-form-user{
+        width: 74%;
+        height: 67rem;
+        top: 20px;
+        border-top-left-radius: 21px;
+        border-bottom-left-radius: 21px;
+        box-shadow: -6px 2px 12px black;
+        z-index: 0;
+        margin-left: 2rem;
+        position: relative;
+        background: center/cover no-repeat url(../img/forms/electronics.jpg);
+}
+
+/********************** ARTICLE ***************************/
+
+.partImg{
+    display:block;
+}
+.backTxt{
+ 
+    font-size: 20rem;
+    top: 20%;
+    left:5%;
+    
+}
+
+.big{
+  /*  font-size:5rem;*/
+   
+}
+.rotateArt{
+    padding: 5rem;
+    width: 100%;
+    left: 3rem;
+}
+  
+}
+ /**********************  RESPONSIVE desktop **************************************************/
+
+@media (min-width: 1025px){
+.logProf-template{
+    margin:1rem;
+}
+  /*********************** HOME**********************************************/
+  
+  .home-content{
+      display: flex;
+  }
+  .quizContent{
+      width: 70%;
+  }
+  #quiz{
+    background-color: #2317659c;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px 1px black;
+  }
+  
+  
+  body{
+
+  header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+    nav 
+        { 
+            
+            ul 
+            {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: nowrap;
+                flex-direction:column;
+                
+                ul:second-child{
+                   flex-direction:column 
+                    }
+            
+                li{
+                    display: flex;
+                    justify-content:center;
+                  }
+                 
+                            
+                  a{
+                    color:white;
+                    padding:3rem;
+                    font-size: 1.3rem;
+                    text-decoration:none;
+                    padding:1rem;
+                    font-weight: bold;
+
+                  }
+                }
+    
+            }
+        }
+       #menu{
+        transform:translate(0%, -100%);
+        right: -126%;
+        top: -10rem;
+       }   
+}
+
+
+ 
+ .caroussel{
+   max-width: 161rem;
+   border-top: 5px black solid;
+   border-bottom: 5px black solid;
+ 
+ }
+ .view{
+
+   min-width: 316rem;
+
+ }
+ .caroussel-screen{
+     
+     margin:1rem;
+     align-self: center;
+     max-width: 100%;
+     
+    img{
+        border-radius:10px;
+        //border:4px black solid;
+    }
+ }
+
+
+.footer{
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+}
+
+.inner{
+    box-shadow:10px 0px 16px #1d1919;
+
+}
+.deco-circle{
+        width: 8%;
+        height: 40%;
+        background-color: #8972a9;
+        border-radius: 117px;
+        top: 53%;
+        left: 69%;
+        box-shadow: 0px 1px 9px #431364;
+}
+.deco-circle2{
+        width: 39%;
+        height: 14%;
+        top: 40%;
+        left: 51%;
+}
+ /**********************  RESPONSIVE desktop  burger**************************************************/
+#menuToggle span{
+    width:50px;
+}
+
+
+/********************** ARTICLE ***************************/
+.eachArt{
+    position: relative;
+    border-radius: 31px;
+    height: 110rem;
+    margin: 16rem 9rem;
+}
+.designArt{
+    position:relative;
+    .imgArt{
+        margin:auto;
+    }
+}
+.smallScreens{
+    display:none;
+}
+.contentTitleL{
+    width: 50%;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height:100%;
+    position:absolute;
+   
+
+}
+.contentTitleR{
+    display:block;
+    width: 50%;
+    height: 100%;
+    background-color: #ccc2c2;
+    position: absolute;
+    right: 0px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+
+}
+.title-right{
+    display: inline-block;
+    width: 53%;
+    font-family: 'Vollkorn', serif;
+    font-weight: 900;
+    font-size: 6rem;
+    color: #484040;
+    z-index: 2;
+    margin-left: 3rem;
+}
+.title-left{
+    display: inline-block;
+    width: 50%;
+    font-weight: 900;
+    font-size: 4rem;
+    margin-right: 3rem;
+    z-index: 2;
+}
+.comments{
+    padding: 1rem;
+}
+.imgArt{
+    width:50%;
+}
+.imgArt > a >img{
+    margin-top: 7rem;
+    max-height: 402px;
+}
+.bigScreens{
+    display:block;
+}
+}

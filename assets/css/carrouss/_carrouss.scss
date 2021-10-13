@@ -1,0 +1,48 @@
+.carousCont {
+  max-width: 1000px;
+  position: relative;
+  padding: 5px;
+  background: #fff;
+  margin: 10rem auto;
+  box-shadow: 0 15px 35px -15px #656565;
+  border-radius: 1rem;
+      img { 
+      min-height: 40%;
+      //max-width: 35%;
+      height: auto;
+      object-fit: contain;
+      border-radius: 0.7rem;
+      margin: 1rem;
+    }
+}
+
+.slider { 
+  margin: 0 auto; 
+  width: 100%; 
+  height: 100%;
+  border-radius: 0.7rem;
+  display: flex; 
+  overflow: hidden; 
+  scroll-behavior: smooth;
+} 
+ 
+#previous, #next { 
+  cursor: pointer; 
+  position: absolute; 
+  width: 50px; 
+  height: 50px; 
+  border-radius: 16px; 
+  background: #2770ff;
+  color: #fff;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  top: calc(50% - 25px); 
+  left: -20px;
+  box-shadow: 0 12px 25px -9px #0041ac;
+} 
+
+#next { 
+  left: unset; 
+  right: -20px; 
+}

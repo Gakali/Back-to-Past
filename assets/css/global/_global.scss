@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior:smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.03em;
+	-webkit-text-stroke: 2px turquoise;
+	color: transparent;
+	filter: drop-shadow(0 0 .35rem turquoise);
+}
+.headerDiv a{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.03em;
+	-webkit-text-stroke: 2px turquoise;
+	color: transparent;
+	filter: drop-shadow(0 0 .35rem turquoise);
+	font-size: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'Vollkorn', serif;
+}
+
+h3{
+    font-size: 2rem;
+}
+body
+{
+    font-size:1.8rem;
+    overflow-x:hidden;
+}
+p{
+
+    color:white;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style-type:none;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.buttonImit{
+        display: block;
+    border: 1px #e6dede solid;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    border-radius: 23px;
+    box-shadow: 1px 1px 14px 3px black, inset 1px 1px 4px #d0901c;
+    font-weight: 900;
+    background: linear-gradient(45deg, #7f6a0f, #3e075a);
+    cursor: pointer;
+}
+.info{
+    font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.03em;
+	-webkit-text-stroke: 2px turquoise;
+	color: transparent;
+	filter: drop-shadow(0 0 .35rem turquoise);
+	text-align:center;
+    font-size:3rem;
+}
+/******************Luciole *************/
+
+.contentBig{
+    overflow:hidden;
+}
+#ball{
+
+    border-radius: 100%;
+    position: absolute;
+    z-index: -4;
+
+
+}
+#smallBall{
+
+    border-radius: 100%;
+    position: absolute;
+   
+
+}
+/*****************  BODY  **********************/
+body{
+
+        background: linear-gradient( 349deg , #231296, #0a0629 70.71%), linear-gradient( 116deg , #000000, #0003ff 70.71%), linear-gradient( 135deg , #060631, #0000ff 70.71%);
+        text-align: center;
+        margin: 0px;
+        font-family: "Source Code Pro", monospace;
+        position: relative;
+        color:#afa9a9;
+    
+}
+/*****************  Bouttons  **********************/
+.succes{
+    margin:1rem;
+    padding:1rem;
+    border:2px solid black;
+    //font-family:$fonts;
+    color:#eff7ef;
+    box-shadow:2px 2px 1px grey;
+}
+.succes::active{
+    margin:1rem;
+    padding:1rem;
+    border:2px solid black;
+    //font-family:$fonts;
+    color:green;
+    box-shadow:2px 2px 1px orange;
+}

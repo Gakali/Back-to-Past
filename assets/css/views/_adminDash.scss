@@ -1,0 +1,131 @@
+.userDom {
+    counter-reset: index;
+    padding: 3rem;
+    max-width: 83rem;
+    margin: 9rem auto;
+    max-height: 48rem;
+    border-radius: 20px;
+    overflow-y: scroll;
+    background-color: black;
+    border: 1px solid #ff9800;
+    box-shadow: 1px 1px 9px black, inset 1px 1px 8px gold;
+  }
+  
+  /* List element */
+.eachUserAdm {
+    counter-increment: index;
+    display: flex;
+    align-items: center;
+    display: flex;
+    padding: 12px 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    span{
+        color: #1ec5af;
+        font-family: 'Vollkorn', serif;
+    }
+  }
+  
+  
+  /* Element counter */
+.eachUserAdm:before {
+    content: counters(index, ".", decimal-leading-zero);
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: bold;
+    min-width: 50px;
+    padding-right: 12px;
+    font-variant-numeric: tabular-nums;
+    align-self: flex-start;
+    background-image: linear-gradient(to bottom, aquamarine, orangered);
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  /* Element separation */
+.eachUserAdm + .eachUserAdm {
+    border-top: 1px solid #ff9800;
+  }
+  
+  /*END LIST*/
+
+.top-right{
+    align-self: flex-end;
+    i{
+        color:#e0a433;
+    }
+}
+
+
+.svgRev{
+    transform-origin: center;
+    transform: rotate(180deg);
+}
+
+.grid{
+    width: 90%;
+    margin: 66px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 31px;
+    background-color: #383836;
+    padding: 2rem;
+    height: 79rem;
+    overflow: scroll;
+    box-shadow: inset 1px 1px 11px 7px #0a0a0a;
+    border-radius: 20px;
+}
+.adminArt{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f1c;
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px 8px #000000;
+    padding: 2rem 2rem;
+    i{
+        color: #9e9e9e;
+    }
+    img{
+            max-width: 74%;
+            margin:auto;
+            box-shadow: -2px -5px 14px 0px black;
+    }
+    small{
+       color: #9e9e9e; 
+    }
+    
+}
+.adminArt > p{
+       // font-size:x-small;
+       color: #e0a434;
+}
+.titleDesign{
+    background-color: #0000004a;
+    position: relative;
+    height: 41%;
+    margin: 2rem 0 2rem 0;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px 2px black;
+}
+.titleDesign > p > i{
+    color:#b5852a;
+}
+.dateArt{
+    padding:1rem;
+    background-color: #23738a;
+    box-shadow: 1px 1px 7px 2px black;
+    border-radius: 20px;
+}
+.parameter{
+    width: 8rem;
+    height: 14rem;
+    overflow-Y: hidden;
+    box-shadow: inset 0px 1px 1px 0px #484343;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    margin: 0 auto;
+    background-color: #a6a9b9;
+    border-bottom: 3px solid #f30c48;
+}

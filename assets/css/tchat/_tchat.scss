@@ -1,0 +1,131 @@
+.userOneline{
+        margin:2rem;
+        box-shadow: 0px 1px 7px blue;
+        padding:0 20% 0 20%;
+    ul{
+        padding:0;
+    }
+    ul>li::after{
+    content:'🟢';
+    
+}
+}
+.one,.two{
+   
+    box-shadow:0px 0px 6px 3px #f44336, inset 0px 0px 3px 2px grey;
+   
+    
+}
+.btnSelect{
+    box-shadow:0px 0px 6px 3px #00df03, inset 0px 0px 3px 2px grey
+}
+ .screenBox{
+    background-color: #242125;
+    display: inline-block;
+    border-radius: 5%;
+    position: relative;
+    overflow: hidden;
+ }
+ .tchatBox{
+    margin-top: 3rem;
+    background-color: #191816;
+    margin: 1rem;
+    overflow: scroll;
+    position: relative;
+    max-height: 47rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    box-shadow: inset 1px 1px 14px 4px gold;
+}
+
+ .circle{
+    width: 2rem;
+    height: 2rem;
+    background-color: #2c3e50;
+    margin: 1rem 1rem;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+ }
+  .redLight{
+     background-color: #e91e63;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 39%;
+    box-shadow: 1px 1px 6px 5px #774e4b, inset 0px 0px 0px 1px green;
+  
+ }
+ .led{
+     background-color: #05f505;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 39%;
+    box-shadow: 1px 1px 6px 5px #19ad19, inset 0px 0px 0px 1px green;
+  
+ }
+ .rectangle{
+     width: 16rem;
+    height: 1rem;
+    background-color: black;
+    display: inline-block;
+    margin: 0rem 14rem 1rem;
+    border-radius: 27%;
+ }
+ .LastTimeMessage{
+     margin:1rem;
+ }
+ .red{
+     background-color:#130f40;
+ }
+ .yellow{
+     background-color:#888287;
+ }
+ textarea{
+    font-family: 'Vollkorn', serif;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: #8c8ca0e0;
+    min-width: 29rem;
+    height: 11rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+    .tchatContent{
+            
+        min-height: 50rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+        ul{
+          padding:0;  
+        }
+        
+        li{
+    margin: 1rem;
+    background-color: #524e47;
+    padding: 2rem;
+    width: 64%;
+    overflow-x: hidden;
+    min-height: 125px;
+    border-radius: 15px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+        
+    }
+    .tchatBox > ul{
+        padding:0;
+    }

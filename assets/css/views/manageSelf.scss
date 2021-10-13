@@ -1,0 +1,58 @@
+.myArticles{
+    max-height: 90rem;
+    /* margin: 1rem; */
+    background-color: #252527;
+    box-shadow: 1px 14px 16px #1d1919;
+    border-radius: 25px;
+    width: 30rem;
+    padding: 2rem;
+    margin: 2rem 0rem;
+    overflow-X: hidden;
+    overflow-y: scroll;
+}
+.sticky{
+    background-color: #2938a7;
+    position: sticky;
+    box-shadow: 1px 1px 9px 2px black;
+    top: -20px;
+    padding: 2rem;
+
+}
+.myArticles div{
+    background-color: #0e0810;
+    border-radius: 20px;
+    margin: 5rem auto;
+    box-shadow: inset 1px 1px 4px 2px black;
+    padding: 1rem;
+    width: 100%;
+}
+.myArticles img{
+    border-radius:20px;
+    box-shadow:1px 1px 7px 3px black;
+}
+.secRev,.secArt{
+    i{
+        background-color: #d8a41e;
+        padding: 1rem;
+        color: black;
+        border-radius: 50%;
+    }
+}
+.secRev div:first-child,.secArt div:first-child{
+    border-radius: 0%;
+    box-shadow: none;
+    background-color: #111a5f;
+    margin: 1rem auto;
+    position: sticky;
+    top: -20px;
+    padding: 2rem;
+}
+.returnSuccess{
+    background-color: #167f8a;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 1rem 1rem;
+    box-shadow: inset 1px 1px 11px 4px #02f8ff;
+    padding: 1rem;
+}
+

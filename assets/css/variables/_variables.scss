@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+$background : center / cover no-repeat url("../img/arcade/baniereV1.jpg");
+$title : turquoise;
+$paragraphes : #FFBF66;
+$game: cyan;
+@mixin flex {
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        }
+ @mixin flexCenter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        }       
+
+$strait : row;
+$m-0:0rem;
+$m-1:2rem;
+$m-3:3rem;
+$spacing : 1rem; 
+$bgcColor:#323432;
+$text: white;
+$block-gradient : linear-gradient(8deg, rgba(128,251,63,1) 0%, rgba(70,103,252,1) 100%);
+$fonts:'Source Code Pro', monospace;   
+
+@-webkit-keyframes back {
+    0% { 
+        left: 30rem;
+        opacity: 0;
+        }
+  100% { 
+        left: 0rem;
+        opacity:1;
+      } 
+}

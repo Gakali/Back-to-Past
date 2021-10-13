@@ -1,0 +1,179 @@
+
+.titleSec{
+    -webkit-text-stroke: 2px turquoise;
+}
+
+.neon{
+    animation: 1s ease-in-out forwards neon;
+}
+
+/**********************SCROLL INDICATOR****************************************/
+.indicator-scroll{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: white;
+    overflow: hidden;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -4rem;
+    top: 7%;
+}
+.scroll-arrow{
+    position:relative;
+    left:-45px;
+    animation:3s ease-in-out 1s infinite scroll;
+}
+/**********************CAROUSSEL****************************************/
+ .carousSec{
+             margin: 13rem 0 14rem 0rem;
+     }
+     
+ .container{
+     
+    
+     .caroussel{
+        overflow: auto;
+        position:relative;
+        max-width: 46rem;
+
+     }
+     .view{
+    
+    	display: flex;
+        flex-direction: row;
+        min-width: 162rem;
+        background-color: #1e2365;
+     }
+     .caroussel-screen{
+         
+         margin:1rem;
+         align-self: center;
+         max-width: 86rem;
+     }
+     #next{
+         display:none;
+     }
+     #prev{
+         display:none;
+     }
+     .bar{
+         display:none;
+         justify-content: center;
+         
+         
+         .circleCarous{
+             color:grey;
+             margin:1rem;
+         }
+     }
+ }
+ 
+
+
+/*********************TEXT HOME*****************************************/
+.description{
+    
+    border-radius: 4%;
+    margin:2rem;
+}
+.ambitions{
+    background: #3432429c;
+    box-shadow: 1px 1px 12px 1px black;
+    border-radius: 20px;
+    margin: 9rem 2rem;
+    padding: 3rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+ 
+/*********************** QUIZ**********************************************/
+ .quizContent{
+    // background: #00000057;
+    border-radius: 2%;
+ }
+ .choices div:nth-child(2){
+    background: #775b07;
+    padding: 1rem 0rem;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 19px 13px #dea706;
+    margin: 1rem;
+ }
+
+ .choices{
+    display: flex;
+    flex-direction: column;
+    background-color: #232121a8;
+    box-shadow: 0px 0px 13px 7px #080808;
+    border-radius: 20px;
+ }
+
+ 
+ .btnQuiz{
+    background-color: #7c7b80;
+    margin: 2rem;
+    padding: 2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #ffe6e6;
+    font-size: 1.5rem;
+    border: none;
+    box-shadow: inset 0px 0px 20px 7px white;
+     p{
+    color: #080808ad;
+    font-size: 2rem;
+    font-weight: bold;
+    }
+     
+ }
+ .btnQuiz:active{
+    background-color: #a9a4f1;
+    margin: 2rem;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 20px 7px black, inset 1px 1px 11px 2px #040415;
+    cursor:pointer;
+ }
+/********************* COMMENTS  **************************************/
+
+ .aside{
+     
+    background-color: #383838d9;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px 1px black;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    flex-direction: column;
+
+ }
+ .eachReview{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+ }
+ #avgRating{
+    margin-top: 4rem;
+ }
+ .aside > div:first-child{
+    padding: 1rem;
+    height: 50rem;
+    overflow-Y: scroll;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 13px 9px #000000;
+    width: 110%;
+ }
+ .aside  div:nth-child(2){
+   i{
+       color:#89888e;
+       margin:2rem auto;
+       color:yellow;
+   }
+ }
